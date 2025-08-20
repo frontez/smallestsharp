@@ -1,5 +1,5 @@
-C# net8.0
-2.91 MB
+C# net9.0
+2.78 MB
 
 https://hub.docker.com/repository/docker/frontez/csharp-smallest
 
