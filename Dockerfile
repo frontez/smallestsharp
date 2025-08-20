@@ -1,5 +1,5 @@
 #---- Stage 1: Build ----
-FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS builder
+FROM mcr.microsoft.com/dotnet/sdk:9.0-alpine AS builder
 
 # Install UPX for binary compression AND AOT compilation dependencies
 RUN apk add --no-cache upx clang build-base zlib-dev
