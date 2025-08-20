@@ -1,0 +1,23 @@
+## .NET ##
+**/bin/
+**/obj/
+*.user
+*.suo
+*.cache
+*.swp
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]uild/
+[Bb]uildOutput/
+
+# NuGet packages
+*.nupkg
+
+# Local development
+.vs/
+.idea/
