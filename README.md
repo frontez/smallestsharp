@@ -1,5 +1,5 @@
 C# net9.0
-2.78 MB
+1.19 MB
 
 Smallest docker image with c# application which returns the text "hello world" to a GET request to /* (or /hello)
 (with a 200 status code and the Content-Type: text/plain header).
@@ -9,6 +9,8 @@ Smallest docker image with c# application which returns the text "hello world" t
 https://hub.docker.com/repository/docker/frontez/csharp-smallest
 
 docker build -t frontez/csharp-smallest .
+
+docker rm -f csharp-smallest
 
 docker run -p 8080:8080 --rm --name csharp-smallest frontez/csharp-smallest
 
